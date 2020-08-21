@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ncoders\.com\.np$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ncoders\.com\.np$
+RewriteRule ^mail\/?(.*)$ "http\:\/\/www\.ncoders\.info\:2096\/$1" [R=301,L]
+
